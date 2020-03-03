@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LCX xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx" SchemaVersion="6.0" Name="strings.xml" PsrId="246" SrcCul="en-US">
+  <OwnedComments>
+    <Cmt Name="Dev"/>
+    <Cmt Name="LcxAdmin"/>
+    <Cmt Name="Rccx"/>
+  </OwnedComments>
+  <Item ItemId=";&lt;string&gt;" ItemType="0" PsrId="246" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false"/>
+    <Item ItemId="0;aad_remote_ngc_device_is_disabled" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[An administrator has disabled your device for access to your work or school account.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="7"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_error_generic" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Something went wrong. Please try again later.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="5"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_error_with_code" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Something went wrong. Please try again later. Error code: %1$s]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="2"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_no_key_configured" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Something went wrong on our side. Please re-enable phone sign-in.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="8"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_pn_device_limit_reached" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[You have too many devices registered for authentication. You can manage them at http://aka.ms/mfasetup.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="9"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_pn_device_token_validation_failed" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Upgrade failed. Make sure push notifications are enabled for Microsoft Authenticator, and try again.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="10"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_remote_auth_session_already_approved" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[You\'ve already approved this request.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="4"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_remote_auth_session_already_denied" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[You\'ve already denied this request.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="1"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | Error messages]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_remote_auth_session_expired" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[The request has expired.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="6"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;auth_approve_ngc_entropy_invalid" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[The number you entered did not match.]]></Val>
+      </Str>
+      <Disp Icon="Str" Order="3"/>
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[ | @localization - DO NOT REPLACE OR CHANGE %1$s. It is the placeholder for the error code.]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+</LCX>
