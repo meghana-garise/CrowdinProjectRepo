@@ -1,0 +1,5 @@
+files:
+  - source: /LCGInput/strings.xml
+    translation: /LCLOutput/strings_%two_letters_code%.xml
+    translate_attributes: 0
+    content_segmentation: 0
