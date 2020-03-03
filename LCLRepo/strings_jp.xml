@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="strings.xml" PsrId="246" SrcCul="en-US" TgtCul="ja-JP" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\default.lss" Type="Lss" />
+  <Item ItemId=";&lt;string&gt;" ItemType="0" PsrId="246" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;aad_remote_ngc_device_is_disabled" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[An administrator has disabled your device for access to your work or school account.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[管理者は、職場または学校アカウントにアクセスするためのデバイスを無効にしました。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_error_generic" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Something went wrong. Please try again later.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[問題が発生しました。後でやり直してください。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_error_with_code" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Something went wrong. Please try again later. Error code: %1$s]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[問題が発生しました。後でもう一度やり直してください。エラー コード: %1$s]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_no_key_configured" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Something went wrong on our side. Please re-enable phone sign-in.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[サーバー側で問題が発生しました。電話によるサインインを再度有効にしてください。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_pn_device_limit_reached" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[You have too many devices registered for authentication. You can manage them at http://aka.ms/mfasetup.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[認証に登録されているデバイスが多すぎます。デバイスは、http://aka.ms/mfasetup で管理できます。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_pn_device_token_validation_failed" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Upgrade failed. Make sure push notifications are enabled for Microsoft Authenticator, and try again.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[アップグレードに失敗しました。Microsoft Authenticator でプッシュ通知が有効になっていることを確認してから、もう一度お試しください。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_remote_auth_session_already_approved" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[You\'ve already approved this request.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[お客様は、この要求を既に承認しています。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_remote_auth_session_already_denied" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[You\'ve already denied this request.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[お客様は、この要求を既に拒否しています。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;aad_remote_ngc_remote_auth_session_expired" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[The request has expired.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[要求の有効期限が切れました。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId="0;auth_approve_ngc_entropy_invalid" ItemType="42;XML:Text" PsrId="246" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[The number you entered did not match.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[入力した番号が一致しませんでした。]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+  </Item>
+</LCX>
